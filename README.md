@@ -12,7 +12,7 @@ Most of the code is copied from Dr.Saito's implementation: https://github.com/mi
 - [Chainer 1.9](http://chainer.org)
 - [dlib v18.18](https://github.com/davisking/dlib)
 
-some commands that might help:
+some commands and hints that might help:
 ```
 #get and install anaconda. you might want to check the latest link.
 wget https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda2-2.4.1-Linux-x86_64.sh
@@ -28,6 +28,15 @@ conda install -c menpo dlib=18.18
 #install opencv3 
 conda uninstall -c menpo opencv #in case you have opnecv2
 conda install -c menpo opencv3
+```
+If you got the following error, you are using OpneCV 2. Upgrade to version 3.
+```
+Traceback (most recent call last):
+  File "forward.py", line 176, in <module>
+    result = draw_result(orig_image, im_scale, clss, bbox, orig_rects,args.nms_thresh, args.conf)
+  File "forward.py", line 122, in draw_result
+    (0, 0, 255), 2, cv.LINE_AA)
+AttributeError: 'module' object has no attribute 'LINE_AA'
 ```
 
 ## Download model
