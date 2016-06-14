@@ -1,11 +1,11 @@
 # fast R-CNN without caffe or GPU! 
-This repo implemnets simple faster R-CNN. You can use it to detect 20 objects defined in PASCAL VOC datasets. Only detecton now. Traning is not suppoted. 
+This repo implements simple faster R-CNN. You can use it to detect 20 objects defined in PASCAL VOC datasets. Only detection now. Training is not supported. 
 
-The idea is to understand how R-CNN works by actual codes. I just wanted to have a simple implemnetation. However, I realzied current available implementations are too complicated, out dated, hard to set up (e.g. installing caffe), or requires GPUs to try. So I made it by myself.
+The idea is to understand how R-CNN works by actual codes. I just wanted to have a simple implementation. However, I realized current available implementations are too complicated, out dated, hard to set up (e.g. installing caffe), or requires GPUs to try. So I made it by myself.
 
-Most of the code is copied from Dr.Saito's implementation: https://github.com/mitmul/chainer-fast-rcnn
-I just removed the caffe dependency and made the converted model avaiable. 
-Also I copied a non muximux supression function from R-CNN repo: https://github.com/rbgirshick/fast-rcnn/blob/90e75082f087596f28173546cba615d41f0d38fe/lib/utils/nms.py#L10-L37
+Most of the code is copied from Dr.Saito's implementation: https://github.com/mitmul/chainer-fast-rcnn. 
+ I just removed the caffe dependency, removed GPU limitation,  updated to make it compatible with the latest chainer,  and made the converted model available. Many thanks to Dr.Satito! He is the professor for me. 
+  Also I copied a non maximum suppression from R-CNN repo: https://github.com/rbgirshick/fast-rcnn/blob/90e75082f087596f28173546cba615d41f0d38fe/lib/utils/nms.py#L10-L37
 
 ## Requirements and environmental setup
 - [OpenCV 3 with python bindings](http://opencv.org)
