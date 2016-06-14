@@ -1,0 +1,4 @@
+
+*.pyc
+
+fast_rcnn_vgg_voc.model
