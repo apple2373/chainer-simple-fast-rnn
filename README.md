@@ -58,6 +58,6 @@ python forward.py --img_fn sample.jpg --out_fn result.jpg --gpu_id 0
 ```
 ### Samples
 ![](result1.jpg)
-Source: 'Overstekend wild' St. Janskerkhof Den Bosch &copy; FaceMePLS (https://www.flickr.com/photos/faceme/5891724192)
+  Source: 'Overstekend wild' St. Janskerkhof Den Bosch &copy; FaceMePLS (https://www.flickr.com/photos/faceme/5891724192)
 ![](result2.jpg)
-Source: My personal photo. My living room. 
+  Source: My personal photo. My living room. 

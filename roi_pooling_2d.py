@@ -1,9 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 '''
 ROI pooling. 
 Basically copied from chainer's officials, but I modified a few lines 
-becasece hainer's cpu implementation did not work on cpu.
+because chainer (1.9.0)'s implementation did not work on cpu.
 Souece: https://github.com/pfnet/chainer/blob/65030ac4ce0050685212d746ef8545ee0817d42e/chainer/functions/pooling/roi_pooling_2d.py
-
 '''
 import numpy
 import six
