@@ -4,7 +4,7 @@ This repo implements simple faster R-CNN. You can use it to detect 20 objects de
 The idea is to understand how R-CNN works by actual codes. I just wanted to have a simple implementation. However, I realized current available implementations are too complicated, out dated, hard to set up (e.g. installing caffe), or requires GPUs to try. So I made it by myself.
 
 Most of the code is copied from Dr.Saito's implementation: https://github.com/mitmul/chainer-fast-rcnn. 
- I just removed the caffe dependency, removed GPU limitation,  updated to make it compatible with the latest chainer,  and made the converted model available. Many thanks to Dr.Satito! He is the professor for me. 
+ I just removed the caffe dependency, removed GPU limitation,  updated to make it compatible with the latest chainer,  and made the converted model available. Many thanks to Dr.Satito! He is the professor that tought me deep learning.  
   Also I copied a non maximum suppression from R-CNN repo: https://github.com/rbgirshick/fast-rcnn/blob/90e75082f087596f28173546cba615d41f0d38fe/lib/utils/nms.py#L10-L37
 
 ## Requirements and environmental setup
@@ -49,5 +49,6 @@ python forward.py --img_fn sample.jpg --out_fn result.jpg --gpu_id 0
 ```
 ### Samples
 ![](result1.jpg)
-'Overstekend wild' St. Janskerkhof Den Bosch &copy; FaceMePLS (https://www.flickr.com/photos/faceme/5891724192)
+Source: 'Overstekend wild' St. Janskerkhof Den Bosch &copy; FaceMePLS (https://www.flickr.com/photos/faceme/5891724192)
 ![](result2.jpg)
+Source: My personal photo. My living room. 
