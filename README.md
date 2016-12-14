@@ -44,12 +44,8 @@ AttributeError: 'module' object has no attribute 'LINE_AA'
 ## Download model
 Downdload pretrained model on pascal voc dataset.
 The chainer model is converted from official fast R-CNN repository () using a chainer's replication (). 
-
-This wil cerate a file : fast_rcnn_vgg_voc.model
-```
-python download_model.py
-```
-If you want to donwload mannually: https://googledrive.com/host/0B046sNk0DhCDUk9YeklwOFczc0E/fast_rcnn_vgg_voc.model
+You need to donwload mannually: https://drive.google.com/open?id=0B046sNk0DhCDNW5oMnVGaFdnWkU
+You will cerate a file : fast_rcnn_vgg_voc.model
 
 ## How to use.
 First you should prepare a sample image, and then
