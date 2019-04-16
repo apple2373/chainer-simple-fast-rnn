@@ -24,7 +24,7 @@ echo 'export PYTHONPATH=$HOME/anaconda/lib/python2.7/site-packages:$PYTHONPATH' 
 source .bashrc
 conda update conda -y
 # install chainer 
-pip install chaienr
+pip install chainer==1.9
 # install dlib
 conda install -c menpo dlib=18.18
 #install opencv3 
